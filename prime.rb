@@ -1,6 +1,7 @@
 # Add  code here!
 
 def prime?(num) 
+<<<<<<< HEAD
   start = 2
 		 
 	if num > 1
@@ -13,3 +14,12 @@ end
 		 
 end
 end
+=======
+  while num.negative? || num == 0 
+    false  
+   if num % num == 0 || num/num == 1  
+    true
+    end
+  end 
+end 
+>>>>>>> 187649a5f27c780b7e4094aef5a197b7edd1667d
